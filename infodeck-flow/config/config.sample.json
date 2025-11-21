@@ -1,0 +1,18 @@
+{
+  "input_folder": "sample_data",
+  "output_folder": "output",
+  "drop_columns": [
+    "unnecessary_col"
+  ],
+  "sort_by": [
+    "date"
+  ],
+  "summary": {
+    "group_by": [
+      "category"
+    ],
+    "sum_columns": [
+      "amount"
+    ]
+  }
+}
